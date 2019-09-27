@@ -1,0 +1,32 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "chat client",
+  "main": "server.js",
+  "keywords": [
+    "socket.io",
+    "whiteboard"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon src/server.js"
+  },
+  "author": "mich",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^4.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.2",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.2",
+    "officegen": "^0.6.3",
+    "query-string": "^6.8.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
